@@ -1,38 +1,56 @@
-.App {
+
+
+.calculator {
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 10px; 
+  height: 350px;
+  width: 300px;
   text-align: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 60px rgb(243, 137, 155);
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="text"]{
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+  background-color: #201f1f;
+  color: #fff;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.error {
+  color: #ff0000;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.success {
+  color: rgb(44, 77, 161);
+  font-size: 20px;
+  margin-top: 10px;
 }
+
